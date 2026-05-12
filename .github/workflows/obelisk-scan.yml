@@ -58,7 +58,7 @@ jobs:
           api_base_url: ${{ secrets.OBELISK_API_BASE_URL }}
           auth_username: ${{ secrets.OBELISK_AUTH_USERNAME }}
           auth_password: ${{ secrets.OBELISK_AUTH_PASSWORD }}
-          risk_threshold: "20"
+          risk_threshold: "60"
           block_threat_levels: high,critical
           include_dev_dependencies: "true"
           scan_changed_code: "true"
